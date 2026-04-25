@@ -450,12 +450,12 @@ img {
   overflow: hidden;
 }
 
-.image-placeholder::before {
+/* .image-placeholder::before {
   content: '🖼️';
   font-size: 2.5rem;
   margin-bottom: 12px;
   opacity: 0.5;
-}
+} */
 
 .image-placeholder:hover {
   border-color: var(--secondary-green);
