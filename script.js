@@ -231,6 +231,15 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
     },
 
+    okay: {
+      patterns: ['okay', 'ok', 'kk', 'yeah', 'yh', 'okayy', 'ok na', 'yeap'],
+      responses: [
+        "Yeah! 😉, Do you need help with anything else?",
+        "Sure, Happy to help!",
+        "Yeap! You should check out our Team page 🥲"
+      ]
+    },
+
     thanks: {
       patterns: ['thanks', 'thank you', 'appreciate', 'grateful', 'ty'],
       responses: [
