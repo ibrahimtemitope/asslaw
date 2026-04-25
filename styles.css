@@ -1230,3 +1230,7 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+.school-name {
+    font-size: 16px;
+}
