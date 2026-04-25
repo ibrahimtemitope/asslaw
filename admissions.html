@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions | Asslaw Private School</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-placeholder">[LOGO]</div>
+        <span>Asslaw</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="vocational.html">Vocational</a></li>
+        <li><a href="student-life.html">Student Life</a></li>
+        <li><a href="admissions.html" class="active">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle">☀️</button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" style="min-height: 60vh; padding-top: 140px;">
+    <div class="hero-content fade-in">
+      <h1>Join the Asslaw Family</h1>
+      <p>Affordable fees. Unmatched value. A home that prepares your child for life.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Why Choose Asslaw?</h2>
+        <p>We offer more than education—we offer a foundation for life, at fees that don't burden parents.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card fade-in">
+          <div class="card-icon">💰</div>
+          <h3>Fully Affordable Fees</h3>
+          <p>Quality education shouldn't break the bank. Our fee structure is designed to be accessible to all families, ensuring no child is left behind due to cost.</p>
+        </div>
+        
+        <div class="card fade-in">
+          <div class="card-icon">🎓</div>
+          <h3>Complete Education Cycle</h3>
+          <p>From early childhood through secondary school completion. One school, one family, one continuous journey of growth.</p>
+        </div>
+        
+        <div class="card fade-in">
+          <div class="card-icon">🛠️</div>
+          <h3>Skills for Employment</h3>
+          <p>Every graduate leaves with practical vocational skills—barbing, hairdressing, ICT, and more—ready to earn or continue to university.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-cream">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start;">
+        <div class="fade-in">
+          <h2 style="font-size: 2rem; margin-bottom: 24px; color: var(--primary-green);">Admission Process</h2>
+          
+          <div style="margin-bottom: 32px;">
+            <h4 style="color: var(--secondary-green); margin-bottom: 8px;">1. Inquiry & Visit</h4>
+            <p style="color: var(--text-light);">Contact us or visit our campus to learn about our programs and meet our community.</p>
+          </div>
+          
+          <div style="margin-bottom: 32px;">
+            <h4 style="color: var(--secondary-green); margin-bottom: 8px;">2. Application</h4>
+            <p style="color: var(--text-light);">Complete the application form with required documents and submit for review.</p>
+          </div>
+          
+          <div style="margin-bottom: 32px;">
+            <h4 style="color: var(--secondary-green); margin-bottom: 8px;">3. Assessment</h4>
+            <p style="color: var(--text-light);">A friendly assessment to understand your child's needs and place them in the right class.</p>
+          </div>
+          
+          <div style="margin-bottom: 32px;">
+            <h4 style="color: var(--secondary-green); margin-bottom: 8px;">4. Enrollment</h4>
+            <p style="color: var(--text-light);">Complete enrollment, receive your welcome pack, and become part of the Asslaw family.</p>
+          </div>
+
+          <div class="image-placeholder" style="margin-top: 40px;">
+            <span>[IMAGE: Happy Students on Campus]</span>
+          </div>
+        </div>
+
+        <div class="fade-in" style="background: var(--bg-card); padding: 40px; border-radius: 20px; border: 1px solid var(--border);">
+          <h3 style="font-size: 1.5rem; margin-bottom: 24px; color: var(--primary-green);">Apply Now</h3>
+          
+          <div class="form-success" id="admission-success">
+            ✅ Thank you! Your application has been received. We will contact you shortly.
+          </div>
+
+          <form class="asslaw-form" id="admission-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Student's First Name *</label>
+                <input type="text" class="form-input" required placeholder="Enter first name">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Student's Last Name *</label>
+                <input type="text" class="form-input" required placeholder="Enter last name">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Date of Birth *</label>
+                <input type="date" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Gender *</label>
+                <select class="form-select" required>
+                  <option value="">Select gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Grade/Class Applying For *</label>
+              <select class="form-select" required>
+                <option value="">Select class</option>
+                <option value="nursery">Nursery</option>
+                <option value="primary">Primary</option>
+                <option value="jss1">JSS 1</option>
+                <option value="jss2">JSS 2</option>
+                <option value="jss3">JSS 3</option>
+                <option value="sss1">SSS 1</option>
+                <option value="sss2">SSS 2</option>
+                <option value="sss3">SSS 3</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Parent/Guardian Name *</label>
+                <input type="text" class="form-input" required placeholder="Full name">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Phone Number *</label>
+                <input type="tel" class="form-input" required placeholder="Phone number">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-input" placeholder="Email address">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Why do you want to join Asslaw?</label>
+              <textarea class="form-textarea" placeholder="Tell us about your expectations..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Application</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="color: var(--cream);">
+            <div class="logo-placeholder" style="border-color: var(--cream); color: var(--cream);">[LOGO]</div>
+            <span>Asslaw Private School</span>
+          </div>
+          <p>More than a school. A home where morals, skills, and dreams are built together.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="vocational.html">Vocational</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Student Life</h4>
+          <ul class="footer-links">
+            <li><a href="student-life.html">Clubs & Activities</a></li>
+            <li><a href="contact.html">Alumni Network</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li>📍 [SCHOOL ADDRESS]</li>
+            <li>📞 [PHONE NUMBER]</li>
+            <li>✉️ [EMAIL ADDRESS]</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Asslaw Private School. Built with love.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
