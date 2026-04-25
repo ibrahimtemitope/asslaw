@@ -850,6 +850,14 @@ img {
   transform: translateY(0);
 }
 
+.grid-fix {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 60px; 
+    align-items: center; 
+    margin-bottom: 80px;
+}
+
 /* ============================================
    MOBILE RESPONSIVE
    ============================================ */
@@ -1216,5 +1224,9 @@ img {
   .chatbot-toggle {
     right: 20px;
     bottom: 20px;
+  }
+
+  .grid-fix {
+    grid-template-columns: 1fr;
   }
 }
