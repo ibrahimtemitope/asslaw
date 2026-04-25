@@ -267,16 +267,16 @@ document.addEventListener('DOMContentLoaded', function() {
     academics: {
       patterns: ['academics', 'curriculum', 'subjects', 'classes', 'what do you teach', 'courses', 'education', 'learning', 'study', 'jss', 'sss', 'nursery', 'primary', 'secondary'],
       responses: [
-        "Asslaw offers a comprehensive curriculum from Nursery through Secondary School (SSS). We cover all core subjects—Mathematics, English, Sciences, Arts, and Social Studies—plus unique programs like Desktop Publishing and ICT. Our standout feature is Science Fair Fridays, where students create projects with the sky as their limit!",
-        "Our academics go beyond textbooks. Yes, we teach all standard subjects, but we also have Science Fair Fridays for innovation, student-suggested programs like Desktop Publishing, and a culture where students can propose new ideas and see them implemented."
+        "Asslaw offers a comprehensive curriculum from Nursery through Secondary School (SSS). We cover all core subjects—Mathematics, English, Sciences, Arts, and Social Studies—plus unique programs like Desktop Publishing and ICT. Our sports program is equally deep, with Interhouse Sports and year-round football training!",
+        "Our academics go beyond textbooks. Yes, we teach all standard subjects, but we also have student-suggested programs like Desktop Publishing, a deep sports culture with Interhouse competitions, and a culture where students can propose new ideas and see them implemented."
       ]
     },
 
-    science_fair: {
-      patterns: ['science fair', 'friday', 'science fair fridays', 'projects', 'innovation', 'create something', 'experiments', 'laboratory'],
+    interhouse_sports: {
+      patterns: ['interhouse sports', 'sports day', 'football', 'soccer', 'track', 'relay', 'athletics', 'sports competition', 'tug of war', 'high jump', 'long jump'],
       responses: [
-        "Science Fair Fridays are legendary at Asslaw! Every Friday, students are challenged to create something extraordinary—the sky is literally the limit. Some find it tough at first, but when they deliver, it feels like a masterpiece. Teachers celebrate every attempt, not just the perfect ones.",
-        "On Science Fair Fridays, Asslaw becomes an exhibition of imagination. Students build, experiment, and innovate. It's not just about science—it's about resilience, creativity, and learning that failure is just practice for success. 🚀"
+        "Interhouse Sports at Asslaw is electric! 🏆 Football is the heartbeat—our teams train all year and compete with real passion. But there's also track, relay races, high jump, long jump, tug-of-war, and novelty races. Every house fights for glory, but every student leaves with stronger character.",
+        "Sports runs deep at Asslaw. Our Interhouse Sports competition isn't just one day of fun; it's the culmination of months of training, house pride, and discipline. From the football pitch to the running track, every student finds their moment to shine. ⚽🏃‍♂️"
       ]
     },
 
